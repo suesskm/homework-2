@@ -160,7 +160,6 @@ gltfLoaderCandle.load('../media/models/candle_light.glb', function(gltf){
 
 
 
-
 //***************************LIGHTS******************** */
 var lightSize = 10;
 // 5: Add lighting to the scene

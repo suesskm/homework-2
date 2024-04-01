@@ -254,15 +254,15 @@ function animate(){
 
     // console.log(candle.position.x);
 
-    if(candle.position.x < -2){
-        candle.rotation.y = THREE.MathUtils.degToRad(180);
-        candle.position.x += 0.200;
-    }
+    // if(candle.position.x < -2){
+    //     candle.rotation.y = THREE.MathUtils.degToRad(180);
+    //     candle.position.x += 0.200;
+    // }
 
-    if(candle.position.x > -12){
-        // bird.rotation.y = THREE.MathUtils.degToRad(180);
-        candle.position.x -= 0.200;
-    }
+    // if(candle.position.x > -12){
+    //     // bird.rotation.y = THREE.MathUtils.degToRad(180);
+    //     candle.position.x -= 0.200;
+    // }
 
     renderer.render(scene,camera);
 }

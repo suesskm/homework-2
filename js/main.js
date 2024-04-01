@@ -252,7 +252,7 @@ function animate(){
     //     bird.position.x += 0.200;
     // }
 
-    console.log(candle.position.x);
+    // console.log(candle.position.x);
 
     if(candle.position.x < -2){
         candle.rotation.y = THREE.MathUtils.degToRad(180);
